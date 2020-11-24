@@ -53,7 +53,6 @@ def plot():
 def process(url, count):
     BUSY = 1
     while count != 0:
-        # print(c)
         count = count - 1
         name = "Поток %s" % count
         thread = DownloadThread(url, name, BUSY, count)
