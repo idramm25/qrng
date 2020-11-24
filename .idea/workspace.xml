@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c66d0fb-677a-403f-b9f4-3291bc4cb911" name="Default Changelist" comment="" />
+    <list default="true" id="9c66d0fb-677a-403f-b9f4-3291bc4cb911" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heatmap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/qrng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/qrng.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qrng.csv" beforeDir="false" afterPath="$PROJECT_DIR$/qrng.csv" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,10 +41,34 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
   </component>
   <component name="RunManager" selected="Python.app">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="qrng" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="qrng" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -49,6 +83,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="heatmap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="qrng" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/heatmap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,6 +160,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.heatmap" />
         <item itemvalue="Python.threads" />
       </list>
     </recent_temporary>
@@ -125,7 +182,9 @@
       <workItem from="1605529323844" duration="2240000" />
       <workItem from="1605533190566" duration="2304000" />
       <workItem from="1605542938886" duration="423000" />
-      <workItem from="1605543367969" duration="475000" />
+      <workItem from="1605543367969" duration="1392000" />
+      <workItem from="1606192332024" duration="7492000" />
+      <workItem from="1606258646744" duration="3246000" />
     </task>
     <task id="LOCAL-00001" summary="hello world">
       <created>1605533396850</created>
@@ -166,26 +225,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="hello world" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="418" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606192357254">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="418" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1053@0.0.1920.1053" timestamp="1606192357254" />
     <state x="1033" y="94" width="800" height="853" key="CommitChangelistDialog2" timestamp="1605543135006">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
     <state x="1033" y="94" width="800" height="853" key="CommitChangelistDialog2/0.0.1920.1053@0.0.1920.1053" timestamp="1605543135006" />
-    <state width="1878" height="542" key="GridCell.Tab.0.bottom" timestamp="1605471794447">
+    <state width="1878" height="164" key="GridCell.Tab.0.bottom" timestamp="1606261837872">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
-    <state width="1878" height="542" key="GridCell.Tab.0.bottom/0.0.1920.1053@0.0.1920.1053" timestamp="1605471794447" />
-    <state width="1878" height="542" key="GridCell.Tab.0.center" timestamp="1605471794446">
+    <state width="1878" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1053@0.0.1920.1053" timestamp="1606261837872" />
+    <state width="1878" height="164" key="GridCell.Tab.0.center" timestamp="1606261837870">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
-    <state width="1878" height="542" key="GridCell.Tab.0.center/0.0.1920.1053@0.0.1920.1053" timestamp="1605471794446" />
-    <state width="1878" height="542" key="GridCell.Tab.0.left" timestamp="1605471794446">
+    <state width="1878" height="164" key="GridCell.Tab.0.center/0.0.1920.1053@0.0.1920.1053" timestamp="1606261837870" />
+    <state width="1878" height="164" key="GridCell.Tab.0.left" timestamp="1606261837868">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
-    <state width="1878" height="542" key="GridCell.Tab.0.left/0.0.1920.1053@0.0.1920.1053" timestamp="1605471794446" />
-    <state width="1878" height="542" key="GridCell.Tab.0.right" timestamp="1605471794447">
+    <state width="1878" height="164" key="GridCell.Tab.0.left/0.0.1920.1053@0.0.1920.1053" timestamp="1606261837868" />
+    <state width="1878" height="164" key="GridCell.Tab.0.right" timestamp="1606261837870">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
-    <state width="1878" height="542" key="GridCell.Tab.0.right/0.0.1920.1053@0.0.1920.1053" timestamp="1605471794447" />
+    <state width="1878" height="164" key="GridCell.Tab.0.right/0.0.1920.1053@0.0.1920.1053" timestamp="1606261837870" />
     <state width="1878" height="188" key="GridCell.Tab.1.bottom" timestamp="1605393538813">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
@@ -202,10 +265,10 @@
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
     <state width="1878" height="188" key="GridCell.Tab.1.right/0.0.1920.1053@0.0.1920.1053" timestamp="1605393538813" />
-    <state x="1014" y="56" width="906" height="794" key="SettingsEditor" timestamp="1605531334466">
+    <state x="1014" y="56" width="906" height="794" key="SettingsEditor" timestamp="1606203596523">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
-    <state x="1014" y="56" width="906" height="794" key="SettingsEditor/0.0.1920.1053@0.0.1920.1053" timestamp="1605531334466" />
+    <state x="1014" y="56" width="906" height="794" key="SettingsEditor/0.0.1920.1053@0.0.1920.1053" timestamp="1606203596523" />
     <state x="1030" y="258" width="806" height="525" key="Vcs.Push.Dialog.v2" timestamp="1605543142788">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
@@ -214,10 +277,15 @@
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
     <state x="1243" y="439" width="379" height="163" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1053@0.0.1920.1053" timestamp="1605534202724" />
+    <state x="874" y="400" width="610" height="274" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1606205358060">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="874" y="400" width="610" height="274" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1053@0.0.1920.1053" timestamp="1606205358060" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/qrng$heatmap.coverage" NAME="heatmap Coverage Results" MODIFIED="1606259356885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/qrng$threads.coverage" NAME="threads Coverage Results" MODIFIED="1605393791341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/qrng$app.coverage" NAME="app Coverage Results" MODIFIED="1605471794391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/qrng$main.coverage" NAME="main Coverage Results" MODIFIED="1605384491347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/qrng$app.coverage" NAME="app Coverage Results" MODIFIED="1606261837822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/qrng$main.coverage" NAME="main Coverage Results" MODIFIED="1606192555892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

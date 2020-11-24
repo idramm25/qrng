@@ -4,8 +4,8 @@ from pathlib import Path
 import csv
 import time
 
-URL = 'https://qrng.anu.edu.au/API/jsonI.php?length=256&type=uint8'
-VAL = 256
+URL = 'https://qrng.anu.edu.au/API/jsonI.php?length=300&type=uint8'
+VAL = 300
 MY_FILE = Path("qrng.csv")
 
 
@@ -38,4 +38,4 @@ def writecsv():
 
 if __name__ == '__main__':
     # print(writecsv())
-    print(getstring())
+    writecsv()
