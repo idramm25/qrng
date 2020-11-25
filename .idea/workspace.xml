@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c66d0fb-677a-403f-b9f4-3291bc4cb911" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="9c66d0fb-677a-403f-b9f4-3291bc4cb911" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +174,7 @@
       <workItem from="1605542938886" duration="423000" />
       <workItem from="1605543367969" duration="1392000" />
       <workItem from="1606192332024" duration="7492000" />
-      <workItem from="1606258646744" duration="3568000" />
+      <workItem from="1606258646744" duration="3886000" />
     </task>
     <task id="LOCAL-00001" summary="hello world">
       <created>1605533396850</created>
@@ -220,7 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606262086016</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="gitignore">
+      <created>1606262241119</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606262241119</updated>
+    </task>
+    <task id="LOCAL-00008" summary="gitignore">
+      <created>1606262394798</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606262394798</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,33 +241,34 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hello world" />
     <MESSAGE value="threads + heatmap added" />
-    <option name="LAST_COMMIT_MESSAGE" value="threads + heatmap added" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="418" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606192357254">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
     <state x="418" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1053@0.0.1920.1053" timestamp="1606192357254" />
-    <state x="1033" y="94" width="800" height="853" key="CommitChangelistDialog2" timestamp="1606262085714">
+    <state x="1033" y="94" width="800" height="853" key="CommitChangelistDialog2" timestamp="1606262394568">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
-    <state x="1033" y="94" width="800" height="853" key="CommitChangelistDialog2/0.0.1920.1053@0.0.1920.1053" timestamp="1606262085714" />
-    <state width="1878" height="164" key="GridCell.Tab.0.bottom" timestamp="1606261837872">
+    <state x="1033" y="94" width="800" height="853" key="CommitChangelistDialog2/0.0.1920.1053@0.0.1920.1053" timestamp="1606262394568" />
+    <state width="1878" height="91" key="GridCell.Tab.0.bottom" timestamp="1606262419795">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
-    <state width="1878" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1053@0.0.1920.1053" timestamp="1606261837872" />
-    <state width="1878" height="164" key="GridCell.Tab.0.center" timestamp="1606261837870">
+    <state width="1878" height="91" key="GridCell.Tab.0.bottom/0.0.1920.1053@0.0.1920.1053" timestamp="1606262419795" />
+    <state width="1878" height="91" key="GridCell.Tab.0.center" timestamp="1606262419794">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
-    <state width="1878" height="164" key="GridCell.Tab.0.center/0.0.1920.1053@0.0.1920.1053" timestamp="1606261837870" />
-    <state width="1878" height="164" key="GridCell.Tab.0.left" timestamp="1606261837868">
+    <state width="1878" height="91" key="GridCell.Tab.0.center/0.0.1920.1053@0.0.1920.1053" timestamp="1606262419794" />
+    <state width="1878" height="91" key="GridCell.Tab.0.left" timestamp="1606262419794">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
-    <state width="1878" height="164" key="GridCell.Tab.0.left/0.0.1920.1053@0.0.1920.1053" timestamp="1606261837868" />
-    <state width="1878" height="164" key="GridCell.Tab.0.right" timestamp="1606261837870">
+    <state width="1878" height="91" key="GridCell.Tab.0.left/0.0.1920.1053@0.0.1920.1053" timestamp="1606262419794" />
+    <state width="1878" height="91" key="GridCell.Tab.0.right" timestamp="1606262419795">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
-    <state width="1878" height="164" key="GridCell.Tab.0.right/0.0.1920.1053@0.0.1920.1053" timestamp="1606261837870" />
+    <state width="1878" height="91" key="GridCell.Tab.0.right/0.0.1920.1053@0.0.1920.1053" timestamp="1606262419795" />
     <state width="1878" height="188" key="GridCell.Tab.1.bottom" timestamp="1605393538813">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
@@ -272,14 +285,18 @@
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
     <state width="1878" height="188" key="GridCell.Tab.1.right/0.0.1920.1053@0.0.1920.1053" timestamp="1605393538813" />
+    <state x="597" y="292" width="721" height="468" key="MultipleFileMergeDialog" timestamp="1606262413336">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="597" y="292" width="721" height="468" key="MultipleFileMergeDialog/0.0.1920.1053@0.0.1920.1053" timestamp="1606262413336" />
     <state x="1014" y="56" width="906" height="794" key="SettingsEditor" timestamp="1606203596523">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
     <state x="1014" y="56" width="906" height="794" key="SettingsEditor/0.0.1920.1053@0.0.1920.1053" timestamp="1606203596523" />
-    <state x="1030" y="258" width="806" height="525" key="Vcs.Push.Dialog.v2" timestamp="1606262100552">
+    <state x="1030" y="258" width="806" height="525" key="Vcs.Push.Dialog.v2" timestamp="1606262432208">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
-    <state x="1030" y="258" width="806" height="525" key="Vcs.Push.Dialog.v2/0.0.1920.1053@0.0.1920.1053" timestamp="1606262100552" />
+    <state x="1030" y="258" width="806" height="525" key="Vcs.Push.Dialog.v2/0.0.1920.1053@0.0.1920.1053" timestamp="1606262432208" />
     <state x="1243" y="439" width="379" height="163" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605534202724">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
